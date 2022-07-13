@@ -12,6 +12,14 @@ const Home = () => {
       <h1>Welcome to this feature-rich test application</h1>
       <h2>We're glad you're here</h2>
       <img src={squirrel} alt="a cute little squirrel peering at you from the tall grass"></img>
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    Dropdown button
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+    <li><a class="dropdown-item" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+  </ul>
     </div>
   );
 };
