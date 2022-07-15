@@ -16,7 +16,7 @@ function EventLog() {
 
   return (
     <div>
-      <h2>Event Log</h2>
+      <h3>Event Log</h3>
       <ol id="events-log"></ol>
       <button onClick={clearLog}>Clear All Events</button>
     </div>
