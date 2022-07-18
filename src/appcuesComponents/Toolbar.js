@@ -33,10 +33,10 @@ const openDebugger = () => {
 const Toolbar = () => {
     return (
         <div id="toolbar">
-            <h3>The Appcues Toolbox</h3>
+            <h5>The Appcues Toolbox</h5>
             <ul>
             <li>
-                <h4>Enter ID and click "Appcues.show" to launch Appcues content</h4>
+                <p>Enter ID and click "Appcues.show" to launch Appcues content</p>
                 <input placeholder="-AbCdEf-12345" id="show-flow" type="text"/>
                 <button onClick={showFlow}>Appcues.show()</button>
             </li>
