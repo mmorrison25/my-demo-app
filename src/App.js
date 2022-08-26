@@ -35,9 +35,9 @@ const App = () => {
     logEvents(name, payload); // adds events into the event log on the page
   })
 
-  window.Appcues.loadLaunchpad("#launchpad", { // loads Launchpad on this element
-    position: "right"
-  })
+  //window.Appcues.loadLaunchpad("#launchpad", { // loads Launchpad on this element
+    //position: "right"
+  //})
   
   return ( 
     <BrowserRouter> 
