@@ -123,7 +123,7 @@ img {
 .app-content p {
   padding: 5px 0;
   width: 60%;
-  line-height: 1 !important;
+  line-height: 1.2em;
   text-align: justify;
   margin-left: auto;
   margin-right: auto;
